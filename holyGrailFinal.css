@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container-body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: black;  /* This area complements the fake border, making it the background of the body black*/
+}
+
+.container-header{
+    display: flex;
+    background: green;
+    flex-direction: row;
+    flex-basis: 7rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* This section is nice because it adds margin, padding and 
+    border radius to each section but it makes it look like 
+    its a border.
+*/
+main > *, header, footer {
+    margin: 4px;
+    padding: 5px;
+    border-radius: 7px;
+    
+}
+
+article {
+    order: 2;
+    background: white;
+    flex-basis: 60vw;
+}
+nav{
+    order: 1;
+    background: grey;
+    
+    flex-basis: 20vw;
+}
+aside{
+    order: 3;
+    background: skyblue;
+    
+    flex-basis: 20vw;
+}
+
+.container-main{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-around;
+    flex-basis: 30rem;
+    
+}
+
+footer {
+    background: green;
+    flex-basis: 7rem;
+}
+
+@media (max-width : 640px) {
+    .container-body{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .container-header{
+        display: flex;
+        background: green;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-basis: 3.5rem;
+    }
+
+    .container-main{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    article {
+        order: 1;
+        background: white;
+        flex-grow: 3;
+    }
+
+    nav{
+        order: 2;
+        background: gray;
+        flex-grow: 1;
+    }
+
+    aside{
+        order: 3;
+        background: skyblue;
+        flex-grow: 1;
+    }
+    
+    footer{
+        order: 4;
+        background: green;
+        flex-basis: 10vh;
+    }
+
+}
