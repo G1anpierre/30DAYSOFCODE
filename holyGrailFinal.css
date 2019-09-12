@@ -20,6 +20,10 @@
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* This section is nice because it adds margin, padding and 
     border radius to each section but it makes it look like 
     its a border.
