@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}   
+
+h3 {
+    border-bottom: 3px solid rgba(155, 138, 138, 0.527);
+    font-family: 'Chilanka', cursive;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-size: 30px;
+    width: 30%;
+    margin: 30px 0 20px 1.66%;
+}
+
+img {
+    float: left;
+    width: 30%;
+    height: 250px;
+    margin: 1.66%;
+    border-radius: 7px;
+}
+
+
+/* This last part is only for the hr and it is copied from css-tricks.com  */
+
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
