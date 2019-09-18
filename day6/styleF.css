@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    background: #00b09b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.wrap {
+    margin-top: 5rem;
+    background: #67B26F;
+    height: 30rem;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30rem;
+    width: 36%;
+    margin: 0 54% 0 10%;
+    
+}
+
+h1 {
+    font-size: 4rem;
+    align-self: flex-start;
+}
+
+p {
+    font-size: 1.4rem;
+}
+.container2 {
+    
+    display: flex;
+    justify-content: center;
+    height: 7rem;
+    align-items: center;
+    
+
+}
+
+.container2 .search {
+    font-size: 1.3rem;
+    padding: .7rem 5rem;
+    border-radius: 7px;
+}
+
+#boton1 {
+    background: #008CBA;
+    color: white;
+    width: 5rem;
+    height: 3.3rem;
+    /* border: 1px solid #338033; */
+    font-size: 1.3rem;
+    border-radius: 4px;
+   
+}
+
+button:focus {
+    background: #67B26F;
+}
+
+#boton2 {
+    background: #4CAF50;
+    color: white;
+    width: 7rem;
+    height: 3.4rem;
+    /* border: 1px solid #338033; */
+    font-size: 1.3rem;
+    border-radius: 4px;
+}
+
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50rem;
+    width: 70%;
+    margin: 0 auto;
+    
+    
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    background: orangered;
+}
