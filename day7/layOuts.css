@@ -1,0 +1,191 @@
+
+* {
+    padding: 0;
+    margin:0 ;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  h1 {
+      font-size: 4rem;
+  }
+
+  h3 {
+      font-size: 3rem;
+  }
+
+  h4 {
+      font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  .column-layout {
+      display: flex;
+      margin: 2rem;
+  }
+
+  .sidebar-one {
+      order: -1;
+      flex: 1;
+      margin: 1.66%;
+  }
+
+  .main-colum {
+    flex: 2;
+    margin: 1.66%; 
+  }
+
+  .sidebar-two {
+    flex: 1;
+    margin: 1.66%;
+  }
+
+/* Otro Projecto */
+
+.call-outs-container {
+    max-width: 140rem;
+    margin: 4rem auto 0 auto;
+
+    
+}
+
+@media (min-width: 80rem) {
+    .call-outs-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
+    
+    
+}
+
+@media (max-width: 80rem) {
+    .column-layout {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-colum {
+        order: -1;
+    }
+
+    .equal-height-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second-a {
+        min-height: 15rem;
+        
+    }
+    .second-b {
+        min-height: 15rem;
+    
+    }
+
+}
+
+.sticker {
+    padding: 2rem;
+    margin-bottom: 3rem;
+    flex-basis: 30%;
+
+
+}
+
+
+/* Anothe section */
+
+.fixed-size-container {
+    max-width: 1400px;
+    margin: 40px auto 0 auto;
+    background-color: #FFF;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.fixed-size {
+    width: 15rem;
+    height: 10rem;
+    background-color: #4666AB;
+    color: #FFF;
+    line-height: 10rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 6rem;
+    margin-bottom: 10rem;
+}
+
+.banner {
+    height: 40rem;
+    max-width: 70rem;
+    margin: 4rem auto 4rem auto;
+    background-color: #2a2a2a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-me {
+    color: #FFF;
+    font-size: 5rem;
+    
+    background: orangered;
+}
+
+.equal-height-container {
+    display: flex;
+    width: 95rem;
+    margin: 5rem auto;
+}
+
+.first {
+    flex: 1;
+    padding: 1rem;
+    background: gray;
+}
+
+.second {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.second-a {
+    background: rebeccapurple;
+    color: #FFF;
+    line-height: 10rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 6rem;
+    flex: 1;
+}
+
+
+.second-b {
+    background: green;
+    color: #FFF;
+    line-height: 10rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 6rem;
+    flex: 1;
+}
+
+.sticker:nth-child(1) {background-color: #FDCFB3;}
+.sticker:nth-child(2) {background-color: #CEC8E4;}
+.sticker:nth-child(3) {background-color: #F9F7E8;}
