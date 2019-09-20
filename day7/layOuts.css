@@ -26,6 +26,7 @@ html {
 
   p {
     font-size: 1.5rem;
+    margin: .4rem;
   }
 
   .column-layout {
