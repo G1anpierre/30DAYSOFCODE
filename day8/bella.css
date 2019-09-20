@@ -1,0 +1,149 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1475506631979-72412c606f4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80);
+    background-size: auto;
+    background-repeat: no-repeat;
+    
+}
+
+.general {
+
+    display: flex;
+    flex-direction: column;
+    background: rgba(171, 227, 229, 0.66);
+    border-radius: 7px;
+    align-items: center;
+    width: 80%;
+    margin: 5rem auto;
+    height: 60rem;
+}
+
+/* First Part - scores */
+
+.scores {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    height: 30rem;
+}
+
+.surround {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 15rem;
+    border-radius: 7px;
+}
+
+ .home {
+    background: red; 
+}
+
+.away {
+    background: blue;
+}
+/*Second Part - actions */
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    background: pink;
+    width: 50%;
+    height: 4rem;
+    
+}
+
+.reset {
+    font-size: 2rem;
+    order: 0;
+    flex: 2 2 auto;
+}
+
+.boton1 {
+    font-size: 2rem;
+    order: -1;
+    flex: 1 0 auto;
+}
+
+.boton2 {
+    font-size: 2rem;
+    order: 1;
+    flex: 1 0 auto;
+}
+
+/* winning messsage */
+
+.winner {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 1rem;
+}
+
+
+/* Winning Score Settings */
+
+.winningSettings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 15rem;
+    margin-top: 4rem;
+}
+
+#final {
+    text-align: center;
+    height: 6rem;
+    width: 8rem;
+    border: .2rem solid black;
+    margin: 1rem 0;
+    
+}
+
+input {
+    height: 3rem;
+    width: 10rem;
+    font-size: 2rem;
+    border-radius: .6rem;
+    text-align: center;
+}
+
+
+/* General SetUp */
+
+h1, h2, span{
+    font-size: 3rem;
+    text-transform: uppercase;
+    
+}
+
+p {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+.champion {
+    background: green;
+}
+
