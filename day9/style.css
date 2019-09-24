@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    background: #1a2a6c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  }
+.bothDices .dice img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: 100vh;
+}
+
+.container h1 {
+    font-size: 9rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #0091EA;
+
+}
+
+.bothDices {
+    display: flex;
+    justify-content: space-between;
+    width: 80rem;
+    margin: 7rem auto;
+    padding: 5rem;
+    
+}
+
+.bothDices .dice p {
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+
+}
