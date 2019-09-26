@@ -1,6 +1,8 @@
 
 const cardElement = document.querySelector('.cardEl');
+// TODO Use a meaningful name
 const but = document.querySelector('button');
+// TODO never use var
 var url = 'https://randomuser.me/api/'
 
 fetchCall();
@@ -25,9 +27,9 @@ function handleErrors(request){
 }
 
 function updateProfile(dataReady){
-    // Data destructuring
+    //TIPS use data destructuring
     const { name, login, email, location, picture } = dataReady.results[0];
-    // Template literal
+    //TIPS use template literal
     cardElement.innerHTML = `
         <img src="${picture.medium}" alt="profile Picture">
         <div class="data-info">
@@ -44,5 +46,6 @@ function updateProfile(dataReady){
 }
 
 function alertError(responseError){
-    alert('An error has occur ' + responseError);
+    //TIPS Use template literal
+    alert(`An error has occur ${responseError}`);
 }
