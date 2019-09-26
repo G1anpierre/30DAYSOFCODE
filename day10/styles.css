@@ -71,7 +71,7 @@ body {
     background: #AAB7B8;
 }
 
-.cardId {
+.cardEl {
     display: flex;
     justify-content: space-around;
     width: 50%;
@@ -93,7 +93,7 @@ body {
     padding-left: .5rem;
 }
 
-.data-info #otherInfo {
+.data-info .otherInfo {
     color: #3498DB;
     padding-top: .5rem;
 }
